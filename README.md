@@ -6,8 +6,8 @@ Scripts and data associated with the manuscript: Transformer-based Prediction of
 
 The code implements a transformer-based model for predicting the minimum doubling time of microbial genomes directly from genomic sequences. This includes:
 
-- Preprocessing genomic FASTA files
-- Tokenizing and embedding sequences
+- Loading the transformer model
+- Finetuning the model on Madin et al., dataset containing the empirical minimum doubling time and genome id
 - Training and evaluating the finetuned model
 - Incorporating metadata (e.g., growth temperature)
 
