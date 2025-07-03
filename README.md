@@ -6,8 +6,9 @@ Scripts and data associated with the manuscript: Transformer-based Prediction of
 
 The code implements a transformer-based model for predicting the minimum doubling time of microbial genomes directly from genomic sequences. This includes:
 
-- Loading the transformer model
-- Finetuning the model on Madin et al., dataset containing the empirical minimum doubling time and genome id
+- Loading the transformer model(https://github.com/Hoarfrost-Lab/LookingGlassv2.0)
+- Finetuning the model on Madin et al., dataset ((https://figshare.com/collections/A_synthesis_of_bacterial_and_archaeal_phenotypic_trait_data/4843290/3)![image](https://github.com/user-attachments/assets/021e71cb-03c5-4f31-80ae-a7a9dbf839ad)
+ containing the empirical minimum doubling time and genome id
 - Training and evaluating the finetuned model
 - Incorporating metadata (e.g., growth temperature)
 
